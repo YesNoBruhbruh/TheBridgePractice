@@ -1,0 +1,76 @@
+Aquatica:
+  name: Aquatica
+  gameMapMode: DUEL
+  sourceWorldFolder: AquaticaSource
+  destinationWorldFolderName: Aquatica
+  buildableCornerOne:
+    worldName: Aquatica
+    x: -20.0
+    y: 101.0
+    z: -14.0
+    yaw: 0.0
+    pitch: 0.0
+  buildableCornerTwo:
+    worldName: Aquatica
+    x: 20.0
+    y: 85.0
+    z: 14.0
+    yaw: 0.0
+    pitch: 0.0
+  teams:
+    1:
+      name: RED
+      color:
+        RED: 255
+        GREEN: 69
+        BLUE: 29
+      blockType: RED_TERRACOTTA
+      spawnLocation:
+        worldName: Aquatica
+        x: 26.481
+        y: 96.5
+        z: 0.511
+        yaw: 180.0
+        pitch: 0.0
+      portalCornerOne:
+        worldName: Aquatica
+        x: 32.5
+        y: 88.0
+        z: 1.492
+        yaw: 0.0
+        pitch: 0.0
+      portalCornerTwo:
+        worldName: Aquatica
+        x: 34.5
+        y: 88.0
+        z: -0.486
+        yaw: 0.0
+        pitch: 0.0
+    2:
+      name: BLUE
+      color:
+        RED: 29
+        GREEN: 142
+        BLUE: 255
+      blockType: BLUE_TERRACOTTA
+      spawnLocation:
+        worldName: Aquatica
+        x: -25.523
+        y: 96.5
+        z: 0.455
+        yaw: 180.0
+        pitch: 0.0
+      portalCornerOne:
+        worldName: Aquatica
+        x: -31.530
+        y: 88.0
+        z: 1.486
+        yaw: 0.0
+        pitch: 0.0
+      portalCornerTwo:
+        worldName: Aquatica
+        x: -33.532
+        y: 88.0
+        z: -0.489
+        yaw: 0.0
+        pitch: 0.0

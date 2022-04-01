@@ -1,0 +1,4 @@
+name: TheBridge
+version: '${project.version}'
+main: me.maanraj514.BridgePlugin
+api-version: 1.18
